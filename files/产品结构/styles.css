@@ -89,9 +89,8 @@
   top:0px;
   width:100px;
   height:60px;
-  background:-webkit-linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 0%, rgba(228, 228, 228, 1) 100%, rgba(255, 255, 255, 1) 100%);
-  background:-moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 0%, rgba(228, 228, 228, 1) 100%, rgba(255, 255, 255, 1) 100%);
-  background:linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 0%, rgba(228, 228, 228, 1) 100%, rgba(255, 255, 255, 1) 100%);
+  background:inherit;
+  background-color:rgba(255, 153, 102, 1);
   box-sizing:border-box;
   border-width:1px;
   border-style:solid;
@@ -3444,23 +3443,39 @@
   border-width:0px;
   position:absolute;
   left:-4px;
-  top:-42px;
+  top:-5px;
   width:8px;
-  height:42px;
+  height:5px;
 }
 #u100_seg1 {
   border-width:0px;
   position:absolute;
   left:-4px;
+  top:-5px;
+  width:40px;
+  height:8px;
+}
+#u100_seg2 {
+  border-width:0px;
+  position:absolute;
+  left:28px;
   top:-42px;
-  width:47px;
+  width:8px;
+  height:45px;
+}
+#u100_seg3 {
+  border-width:0px;
+  position:absolute;
+  left:28px;
+  top:-42px;
+  width:15px;
   height:8px;
 }
 #u100_text {
   border-width:0px;
   position:absolute;
-  left:-48px;
-  top:-46px;
+  left:-18px;
+  top:-16px;
   width:100px;
   visibility:hidden;
   word-wrap:break-word;
@@ -3477,39 +3492,23 @@
   border-width:0px;
   position:absolute;
   left:-4px;
-  top:-22px;
+  top:-4px;
   width:8px;
-  height:22px;
+  height:4px;
 }
 #u101_seg1 {
   border-width:0px;
   position:absolute;
   left:-4px;
-  top:-22px;
-  width:41px;
-  height:8px;
-}
-#u101_seg2 {
-  border-width:0px;
-  position:absolute;
-  left:29px;
-  top:-22px;
-  width:8px;
-  height:26px;
-}
-#u101_seg3 {
-  border-width:0px;
-  position:absolute;
-  left:29px;
   top:-4px;
-  width:14px;
+  width:47px;
   height:8px;
 }
 #u101_text {
   border-width:0px;
   position:absolute;
   left:-28px;
-  top:-26px;
+  top:-8px;
   width:100px;
   visibility:hidden;
   word-wrap:break-word;
